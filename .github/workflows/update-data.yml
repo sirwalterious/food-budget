@@ -1,0 +1,63 @@
+name: Update USDA data
+on:
+  schedule:
+    - cron: '17 12 * * *' # daily; USDA's release day varies
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Re-parse even if the PDFs are unchanged'
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - run: npm ci
+      - name: Fetch, parse and validate
+        run: npm run update-data -- ${{ inputs.force && '--force' || '' }}
+      - name: Run tests against the new data
+        run: npm test
+      - name: Commit if changed
+        id: commit
+        run: |
+          if git diff --quiet -- data/costs.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/costs.json
+            git commit -m "data: update USDA Cost of Food data"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Open an issue if the update failed
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          existing=$(gh issue list --label data-update-failed --state open --json number --jq 'length')
+          if [ "$existing" = "0" ]; then
+            gh label create data-update-failed --color B60205 2>/dev/null || true
+            gh issue create --label data-update-failed \
+              --title "USDA data update failed" \
+              --body "The scheduled data update failed (parse/validation error or USDA site change). The site is still serving the last good data. See the run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          fi
+  deploy:
+    needs: update
+    if: needs.update.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

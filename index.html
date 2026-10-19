@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Budget Calculator – USDA Food Plans</title>
+    <meta name="description" content="Estimate a monthly or weekly grocery budget for your household using the official USDA Food Plan costs." />
+  </head>
+  <body>
+    <main>
+      <h1>Food Budget Calculator</h1>
+      <p class="lead">Estimate a reasonable grocery budget for your household, based entirely on the official USDA Food Plan costs.</p>
+      <p id="data-banner" class="banner" data-testid="data-banner"></p>
+      <p id="stale" class="warn" hidden></p>
+
+      <div class="layout">
+        <section class="card" aria-labelledby="h-setup">
+          <h2 id="h-setup">Your household</h2>
+          <label for="plan">Food plan</label>
+          <select id="plan"></select>
+          <p id="plan-help" class="hint"></p>
+
+          <label for="region">Location</label>
+          <select id="region"></select>
+
+          <h3>People</h3>
+          <div id="people"></div>
+          <button type="button" id="add" class="secondary">+ Add person</button>
+        </section>
+
+        <section class="card" aria-labelledby="h-results" aria-live="polite">
+          <div class="head">
+            <h2 id="h-results">Your estimated budget</h2>
+            <div class="toggle" role="group" aria-label="Time period">
+              <button type="button" id="v-weekly" data-view="weekly">Weekly</button>
+              <button type="button" id="v-monthly" data-view="monthly">Monthly</button>
+            </div>
+          </div>
+          <div id="results"></div>
+          <button type="button" id="share" class="secondary">Copy shareable link</button>
+          <span id="share-status" class="hint" role="status"></span>
+        </section>
+      </div>
+
+      <footer>
+        <p>
+          Source: <a id="src-link" href="#" rel="noopener">USDA Cost of Food Monthly Reports</a>. Costs assume all meals and snacks are
+          prepared at home and are rounded by USDA to the nearest 10 cents. This is an estimate, not financial or nutrition advice. Not
+          affiliated with USDA.
+        </p>
+        <p id="pdf-links"></p>
+      </footer>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+                        Official USDA Food Plans: Cost of Food at Home at Three Levels,
+                                         U.S. Average, August 2026 1
+
+                         Low-Cost Plan Low-Cost Plan Moderate-Cost Plan                    Moderate-Cost Plan Liberal Plan             Liberal Plan
+  Age-Sex Groups    2
+                          Weekly Cost  3
+                                             Monthly Cost   3
+                                                                     Weekly Cost  3
+                                                                                              Monthly Cost   3
+                                                                                                                     Weekly Cost   3
+                                                                                                                                       Monthly Cost3
+  Child:
+  1 year                     $38.10             $165.10                 $42.90                   $185.80                $52.20            $226.00
+  2-3 years                  $40.10             $173.50                 $47.80                   $207.10                $58.20            $252.30
+  4-5 years                  $41.30             $178.80                 $51.10                   $221.40                $61.80            $267.60
+  6-8 years                  $60.50             $262.00                 $70.30                   $304.50                $82.20            $356.30
+  9-11 years                 $62.50             $270.90                 $80.70                   $349.50                $94.00            $407.40
+  Female:
+  12-13 years                $62.20             $269.30                 $74.20                   $321.50                $92.50            $400.90
+  14-18 years                $62.40             $270.60                 $74.60                   $323.10                $92.20            $399.30
+  19-50 years                $63.60             $275.70                 $77.60                   $336.10                $99.00            $428.80
+  51-70 years                $62.00             $268.70                 $76.40                   $331.00                $92.10            $399.20
+  71+ years                  $61.90             $268.10                 $76.10                   $329.80                $91.00            $394.10
+  Male:
+  12-13 years                $73.10             $316.70                 $90.60                    $392.40              $106.30            $460.50
+  14-18 years                $74.40             $322.30                 $93.10                    $403.30              $109.30            $473.70
+  19-50 years                $73.20             $317.20                 $91.90                    $398.10              $112.20            $486.20
+  51-70 years                $69.00             $299.00                 $86.50                    $375.00              $103.60            $448.80
+  71+ years                  $68.30             $295.90                 $83.90                    $363.70              $103.30            $447.70
+1 The Food Plans represent a nutritious diet at three different cost levels. The nutritional bases of the Food Plans are the 1997-2005 Dietary Reference
+
+Intakes, 2005 Dietary Guidelines for Americans, and 2005 MyPyramid food intake recommendations. In addition to cost, differences among plans
+are in specific foods and quantities of foods. Another basis of the Food Plans is that all meals and snacks are prepared at home. For specific foods
+and quantities of foods in the Food Plans, as well as the methodology used to update the monthly costs of the Food Plan market baskets, see The
+Low-Cost, Moderate-Cost, and Liberal Food Plans, 2007. All three Food Plans are based on 2001-02 data and updated to current dollars by using
+the Consumer Price Index for specific food items. Reevaluation of the Thrifty Food Plan, 2021 begins the process to address the three other USDA
+Food Plans: the Low-Cost, Moderate-Cost, and Liberal Food Plans.
+2 The costs given are for individuals in 4-person households. For individuals in other size households, the following adjustments are suggested:
+
+1-person—add 20 percent; 2-person—add 10 percent; 3-person—add 5 percent; 4-person—no adjustment; 5- or 6-person—subtract 5 percent; 7-
+(or more) person—subtract 10 percent. To calculate total foods costs for a household, (1) sum the food costs for each individual in the household
+and then (2) apply the appropriate adjustment factor based on household size
+3 All costs are rounded to nearest 10 cents. Monthly costs are calculated by multiplying the weekly costs by 4.333.
+
+
+This file may be accessed at: https://www.fna.usda.gov/research/cnpp/usda-food-plans/cost-food-monthly-reports
+
+Issued September 2026.
+
+
+
+
+                             Food and Nutrition Administration, 1400 Jefferson Dr, Washington, DC 20250
+                                    USDA is an equal opportunity provider, employer, and lender.
+

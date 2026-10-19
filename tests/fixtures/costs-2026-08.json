@@ -1,0 +1,630 @@
+{
+  "meta": {
+    "month": "2026-08",
+    "monthLabel": "August 2026",
+    "issuedLabel": "September 2026",
+    "sourceUrl": "fixture",
+    "fetchedAt": "2026-01-01T00:00:00.000Z",
+    "pdfs": {
+      "thrifty": {
+        "url": "fixture",
+        "sha256": "fixture"
+      },
+      "lowmodlib": {
+        "url": "fixture",
+        "sha256": "fixture"
+      },
+      "akhi": {
+        "url": "fixture",
+        "sha256": "fixture"
+      }
+    }
+  },
+  "householdAdjustment": [
+    {
+      "minSize": 1,
+      "maxSize": 1,
+      "percent": 20
+    },
+    {
+      "minSize": 2,
+      "maxSize": 2,
+      "percent": 10
+    },
+    {
+      "minSize": 3,
+      "maxSize": 3,
+      "percent": 5
+    },
+    {
+      "minSize": 4,
+      "maxSize": 4,
+      "percent": 0
+    },
+    {
+      "minSize": 5,
+      "maxSize": 6,
+      "percent": -5
+    },
+    {
+      "minSize": 7,
+      "maxSize": 999,
+      "percent": -10
+    }
+  ],
+  "referenceFamily": {
+    "weekly": 236.3,
+    "monthly": 1023.7
+  },
+  "plans": {
+    "thrifty": {
+      "name": "Thrifty",
+      "groups": [
+        {
+          "id": "C1",
+          "label": "1 year",
+          "sex": null,
+          "ageMin": 1,
+          "ageMax": 1,
+          "weekly": 26.4,
+          "monthly": 114.2
+        },
+        {
+          "id": "C2-3",
+          "label": "2-3 years",
+          "sex": null,
+          "ageMin": 2,
+          "ageMax": 3,
+          "weekly": 39.8,
+          "monthly": 172.6
+        },
+        {
+          "id": "C4-5",
+          "label": "4-5 years",
+          "sex": null,
+          "ageMin": 4,
+          "ageMax": 5,
+          "weekly": 43.5,
+          "monthly": 188.3
+        },
+        {
+          "id": "C6-8",
+          "label": "6-8 years",
+          "sex": null,
+          "ageMin": 6,
+          "ageMax": 8,
+          "weekly": 48.3,
+          "monthly": 209.2
+        },
+        {
+          "id": "C9-11",
+          "label": "9-11 years",
+          "sex": null,
+          "ageMin": 9,
+          "ageMax": 11,
+          "weekly": 55.8,
+          "monthly": 241.9
+        },
+        {
+          "id": "F12-13",
+          "label": "12-13 years",
+          "sex": "F",
+          "ageMin": 12,
+          "ageMax": 13,
+          "weekly": 51.7,
+          "monthly": 224
+        },
+        {
+          "id": "F14-19",
+          "label": "14-19 years",
+          "sex": "F",
+          "ageMin": 14,
+          "ageMax": 19,
+          "weekly": 60,
+          "monthly": 260
+        },
+        {
+          "id": "F20-50",
+          "label": "20-50 years",
+          "sex": "F",
+          "ageMin": 20,
+          "ageMax": 50,
+          "weekly": 58.5,
+          "monthly": 253.7
+        },
+        {
+          "id": "F51-70",
+          "label": "51-70 years",
+          "sex": "F",
+          "ageMin": 51,
+          "ageMax": 70,
+          "weekly": 54.5,
+          "monthly": 236.3
+        },
+        {
+          "id": "F71+",
+          "label": "71+ years",
+          "sex": "F",
+          "ageMin": 71,
+          "ageMax": 120,
+          "weekly": 60.1,
+          "monthly": 260.5
+        },
+        {
+          "id": "M12-13",
+          "label": "12-13 years",
+          "sex": "M",
+          "ageMin": 12,
+          "ageMax": 13,
+          "weekly": 59.7,
+          "monthly": 258.5
+        },
+        {
+          "id": "M14-19",
+          "label": "14-19 years",
+          "sex": "M",
+          "ageMin": 14,
+          "ageMax": 19,
+          "weekly": 75.3,
+          "monthly": 326.2
+        },
+        {
+          "id": "M20-50",
+          "label": "20-50 years",
+          "sex": "M",
+          "ageMin": 20,
+          "ageMax": 50,
+          "weekly": 73.6,
+          "monthly": 318.9
+        },
+        {
+          "id": "M51-70",
+          "label": "51-70 years",
+          "sex": "M",
+          "ageMin": 51,
+          "ageMax": 70,
+          "weekly": 64.9,
+          "monthly": 281.2
+        },
+        {
+          "id": "M71+",
+          "label": "71+ years",
+          "sex": "M",
+          "ageMin": 71,
+          "ageMax": 120,
+          "weekly": 61.9,
+          "monthly": 268.2
+        }
+      ]
+    },
+    "low": {
+      "name": "Low-Cost",
+      "groups": [
+        {
+          "id": "C1",
+          "label": "1 year",
+          "sex": null,
+          "ageMin": 1,
+          "ageMax": 1,
+          "weekly": 38.1,
+          "monthly": 165.1
+        },
+        {
+          "id": "C2-3",
+          "label": "2-3 years",
+          "sex": null,
+          "ageMin": 2,
+          "ageMax": 3,
+          "weekly": 40.1,
+          "monthly": 173.5
+        },
+        {
+          "id": "C4-5",
+          "label": "4-5 years",
+          "sex": null,
+          "ageMin": 4,
+          "ageMax": 5,
+          "weekly": 41.3,
+          "monthly": 178.8
+        },
+        {
+          "id": "C6-8",
+          "label": "6-8 years",
+          "sex": null,
+          "ageMin": 6,
+          "ageMax": 8,
+          "weekly": 60.5,
+          "monthly": 262
+        },
+        {
+          "id": "C9-11",
+          "label": "9-11 years",
+          "sex": null,
+          "ageMin": 9,
+          "ageMax": 11,
+          "weekly": 62.5,
+          "monthly": 270.9
+        },
+        {
+          "id": "F12-13",
+          "label": "12-13 years",
+          "sex": "F",
+          "ageMin": 12,
+          "ageMax": 13,
+          "weekly": 62.2,
+          "monthly": 269.3
+        },
+        {
+          "id": "F14-18",
+          "label": "14-18 years",
+          "sex": "F",
+          "ageMin": 14,
+          "ageMax": 18,
+          "weekly": 62.4,
+          "monthly": 270.6
+        },
+        {
+          "id": "F19-50",
+          "label": "19-50 years",
+          "sex": "F",
+          "ageMin": 19,
+          "ageMax": 50,
+          "weekly": 63.6,
+          "monthly": 275.7
+        },
+        {
+          "id": "F51-70",
+          "label": "51-70 years",
+          "sex": "F",
+          "ageMin": 51,
+          "ageMax": 70,
+          "weekly": 62,
+          "monthly": 268.7
+        },
+        {
+          "id": "F71+",
+          "label": "71+ years",
+          "sex": "F",
+          "ageMin": 71,
+          "ageMax": 120,
+          "weekly": 61.9,
+          "monthly": 268.1
+        },
+        {
+          "id": "M12-13",
+          "label": "12-13 years",
+          "sex": "M",
+          "ageMin": 12,
+          "ageMax": 13,
+          "weekly": 73.1,
+          "monthly": 316.7
+        },
+        {
+          "id": "M14-18",
+          "label": "14-18 years",
+          "sex": "M",
+          "ageMin": 14,
+          "ageMax": 18,
+          "weekly": 74.4,
+          "monthly": 322.3
+        },
+        {
+          "id": "M19-50",
+          "label": "19-50 years",
+          "sex": "M",
+          "ageMin": 19,
+          "ageMax": 50,
+          "weekly": 73.2,
+          "monthly": 317.2
+        },
+        {
+          "id": "M51-70",
+          "label": "51-70 years",
+          "sex": "M",
+          "ageMin": 51,
+          "ageMax": 70,
+          "weekly": 69,
+          "monthly": 299
+        },
+        {
+          "id": "M71+",
+          "label": "71+ years",
+          "sex": "M",
+          "ageMin": 71,
+          "ageMax": 120,
+          "weekly": 68.3,
+          "monthly": 295.9
+        }
+      ]
+    },
+    "moderate": {
+      "name": "Moderate-Cost",
+      "groups": [
+        {
+          "id": "C1",
+          "label": "1 year",
+          "sex": null,
+          "ageMin": 1,
+          "ageMax": 1,
+          "weekly": 42.9,
+          "monthly": 185.8
+        },
+        {
+          "id": "C2-3",
+          "label": "2-3 years",
+          "sex": null,
+          "ageMin": 2,
+          "ageMax": 3,
+          "weekly": 47.8,
+          "monthly": 207.1
+        },
+        {
+          "id": "C4-5",
+          "label": "4-5 years",
+          "sex": null,
+          "ageMin": 4,
+          "ageMax": 5,
+          "weekly": 51.1,
+          "monthly": 221.4
+        },
+        {
+          "id": "C6-8",
+          "label": "6-8 years",
+          "sex": null,
+          "ageMin": 6,
+          "ageMax": 8,
+          "weekly": 70.3,
+          "monthly": 304.5
+        },
+        {
+          "id": "C9-11",
+          "label": "9-11 years",
+          "sex": null,
+          "ageMin": 9,
+          "ageMax": 11,
+          "weekly": 80.7,
+          "monthly": 349.5
+        },
+        {
+          "id": "F12-13",
+          "label": "12-13 years",
+          "sex": "F",
+          "ageMin": 12,
+          "ageMax": 13,
+          "weekly": 74.2,
+          "monthly": 321.5
+        },
+        {
+          "id": "F14-18",
+          "label": "14-18 years",
+          "sex": "F",
+          "ageMin": 14,
+          "ageMax": 18,
+          "weekly": 74.6,
+          "monthly": 323.1
+        },
+        {
+          "id": "F19-50",
+          "label": "19-50 years",
+          "sex": "F",
+          "ageMin": 19,
+          "ageMax": 50,
+          "weekly": 77.6,
+          "monthly": 336.1
+        },
+        {
+          "id": "F51-70",
+          "label": "51-70 years",
+          "sex": "F",
+          "ageMin": 51,
+          "ageMax": 70,
+          "weekly": 76.4,
+          "monthly": 331
+        },
+        {
+          "id": "F71+",
+          "label": "71+ years",
+          "sex": "F",
+          "ageMin": 71,
+          "ageMax": 120,
+          "weekly": 76.1,
+          "monthly": 329.8
+        },
+        {
+          "id": "M12-13",
+          "label": "12-13 years",
+          "sex": "M",
+          "ageMin": 12,
+          "ageMax": 13,
+          "weekly": 90.6,
+          "monthly": 392.4
+        },
+        {
+          "id": "M14-18",
+          "label": "14-18 years",
+          "sex": "M",
+          "ageMin": 14,
+          "ageMax": 18,
+          "weekly": 93.1,
+          "monthly": 403.3
+        },
+        {
+          "id": "M19-50",
+          "label": "19-50 years",
+          "sex": "M",
+          "ageMin": 19,
+          "ageMax": 50,
+          "weekly": 91.9,
+          "monthly": 398.1
+        },
+        {
+          "id": "M51-70",
+          "label": "51-70 years",
+          "sex": "M",
+          "ageMin": 51,
+          "ageMax": 70,
+          "weekly": 86.5,
+          "monthly": 375
+        },
+        {
+          "id": "M71+",
+          "label": "71+ years",
+          "sex": "M",
+          "ageMin": 71,
+          "ageMax": 120,
+          "weekly": 83.9,
+          "monthly": 363.7
+        }
+      ]
+    },
+    "liberal": {
+      "name": "Liberal",
+      "groups": [
+        {
+          "id": "C1",
+          "label": "1 year",
+          "sex": null,
+          "ageMin": 1,
+          "ageMax": 1,
+          "weekly": 52.2,
+          "monthly": 226
+        },
+        {
+          "id": "C2-3",
+          "label": "2-3 years",
+          "sex": null,
+          "ageMin": 2,
+          "ageMax": 3,
+          "weekly": 58.2,
+          "monthly": 252.3
+        },
+        {
+          "id": "C4-5",
+          "label": "4-5 years",
+          "sex": null,
+          "ageMin": 4,
+          "ageMax": 5,
+          "weekly": 61.8,
+          "monthly": 267.6
+        },
+        {
+          "id": "C6-8",
+          "label": "6-8 years",
+          "sex": null,
+          "ageMin": 6,
+          "ageMax": 8,
+          "weekly": 82.2,
+          "monthly": 356.3
+        },
+        {
+          "id": "C9-11",
+          "label": "9-11 years",
+          "sex": null,
+          "ageMin": 9,
+          "ageMax": 11,
+          "weekly": 94,
+          "monthly": 407.4
+        },
+        {
+          "id": "F12-13",
+          "label": "12-13 years",
+          "sex": "F",
+          "ageMin": 12,
+          "ageMax": 13,
+          "weekly": 92.5,
+          "monthly": 400.9
+        },
+        {
+          "id": "F14-18",
+          "label": "14-18 years",
+          "sex": "F",
+          "ageMin": 14,
+          "ageMax": 18,
+          "weekly": 92.2,
+          "monthly": 399.3
+        },
+        {
+          "id": "F19-50",
+          "label": "19-50 years",
+          "sex": "F",
+          "ageMin": 19,
+          "ageMax": 50,
+          "weekly": 99,
+          "monthly": 428.8
+        },
+        {
+          "id": "F51-70",
+          "label": "51-70 years",
+          "sex": "F",
+          "ageMin": 51,
+          "ageMax": 70,
+          "weekly": 92.1,
+          "monthly": 399.2
+        },
+        {
+          "id": "F71+",
+          "label": "71+ years",
+          "sex": "F",
+          "ageMin": 71,
+          "ageMax": 120,
+          "weekly": 91,
+          "monthly": 394.1
+        },
+        {
+          "id": "M12-13",
+          "label": "12-13 years",
+          "sex": "M",
+          "ageMin": 12,
+          "ageMax": 13,
+          "weekly": 106.3,
+          "monthly": 460.5
+        },
+        {
+          "id": "M14-18",
+          "label": "14-18 years",
+          "sex": "M",
+          "ageMin": 14,
+          "ageMax": 18,
+          "weekly": 109.3,
+          "monthly": 473.7
+        },
+        {
+          "id": "M19-50",
+          "label": "19-50 years",
+          "sex": "M",
+          "ageMin": 19,
+          "ageMax": 50,
+          "weekly": 112.2,
+          "monthly": 486.2
+        },
+        {
+          "id": "M51-70",
+          "label": "51-70 years",
+          "sex": "M",
+          "ageMin": 51,
+          "ageMax": 70,
+          "weekly": 103.6,
+          "monthly": 448.8
+        },
+        {
+          "id": "M71+",
+          "label": "71+ years",
+          "sex": "M",
+          "ageMin": 71,
+          "ageMax": 120,
+          "weekly": 103.3,
+          "monthly": 447.7
+        }
+      ]
+    }
+  },
+  "regions": {
+    "anchorageMonthly": 1294.7,
+    "hawaiiMonthly": 1556,
+    "alaskaPercentAboveAnchorage": {
+      "urban": 0.79,
+      "ruralI": 28.52,
+      "ruralII": 56.42
+    }
+  }
+}

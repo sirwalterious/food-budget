@@ -1,0 +1,62 @@
+                                                  Official USDA Thrifty Food Plan:
+                                                    U.S. Average, August 2026 1
+
+                                Age-Sex Groups2                                     Weekly Cost3        Monthly Cost3
+                                Child:
+                                1 year                                                  $26.40              $114.20
+                                2-3 years                                               $39.80              $172.60
+                                4-5 years                                               $43.50              $188.30
+                                6-8 years                                               $48.30              $209.20
+                                9-11 years                                              $55.80              $241.90
+                                Female:
+                                12-13 years                                             $51.70              $224.00
+                                14-19 years                                             $60.00              $260.00
+                                20-50 years                                             $58.50              $253.70
+                                51-70 years                                             $54.50              $236.30
+                                71+ years                                               $60.10              $260.50
+                                Male:
+                                12-13 years                                             $59.70              $258.50
+                                14-19 years                                             $75.30              $326.20
+                                20-50 years                                             $73.60              $318.90
+                                51-70 years                                             $64.90              $281.20
+                                71+ years                                               $61.90              $268.20
+                                Reference Family:4
+                                Male and Female, 20–50 years
+                                and Two Children, 6–8 and 9–11 years                   $236.30             $1,023.70
+
+1 The Thrifty Food Plan, 2021 represents a nutritious, practical, cost-effective diet. The nutritional bases of the Thrifty Food Plan are the Dietary
+
+Reference Intakes and the Dietary Guidelines for Americans, 2020-2025 (including Healthy U.S.-Style Dietary Pattern food-group and -subgroup
+amounts). Another basis of the Thrifty Food Plan is that all meals and snacks are prepared at home. For specific foods and quantities of foods in the
+Thrifty Food Plan, see Thrifty Food Plan, 2021. The Thrifty Food Plan is based on 2013-16 consumption and 2015-16 price data and updated to current
+dollars by using the Consumer Price Index for specific food items.
+2 The costs given are for individuals in 4-person households. For individuals in other size households, the following adjustments are suggested:
+
+1-person—add 20 percent; 2-person—add 10 percent; 3-person—add 5 percent; 4-person—no adjustment; 5- or 6-person—subtract 5 percent; 7-(or
+more) person—subtract 10 percent. To calculate total foods costs for a household, (1) sum the food costs for each individual in the household and then
+(2) apply the appropriate adjustment factor based on household size.
+3 All costs are rounded to nearest 10 cents. Monthly costs are calculated by multiplying the weekly costs by 4.333.
+4 Defined in the Food and Nutrition Act of 2008, this reference family of four is used to determine the maximum Supplemental Nutrition Assistance
+
+Program (SNAP) allotment, which is then adjusted downward for smaller households and upward for larger households.
+
+Note: To account for changes in food prices, the costs of the Thrifty Food Plan, 2021 Market Baskets for each age-sex group are updated monthly by
+using the Consumer Price Indexes (CPIs). Each Market Basket Category of the Thrifty Food Plan, 2021 is matched to one or more CPIs (e.g., the
+Market Basket Category “eggs” is matched to the CPI for eggs and the Market Basket Category “dark-green vegetables” is matched to CPIs for fresh
+vegetables, frozen vegetables, and canned vegetables). The costs of Market Basket Categories matched to one CPI are adjusted based on the
+percentage change in the matched CPI compared to June 2021. The costs of Market Basket Categories matched to more than one CPI are adjusted
+based on a weighted average of the percentage changes in the matched CPIs compared to June 2021, with weights based on expenditure patterns as
+outlined in BLS’ relative importance of CPI components for 2017-18 (the most current at the time of the 2021 update). After the CPI adjustments are
+applied to each Market Basket Category, the updated costs of the Market Basket Categories are summed to determine the new monthly total cost of
+the Thrifty Food Plan, 2021 Market Basket for each age-sex group.
+
+This file may be accessed at: https://www.fna.usda.gov/research/cnpp/usda-food-plans/cost-food-monthly-reports
+
+Issued September 2026.
+
+
+
+
+                                  Food and Nutrition Administration, 1400 Jefferson Dr, Washington, DC 20250
+                                         USDA is an equal opportunity provider, employer, and lender.
+
