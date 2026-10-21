@@ -31,3 +31,4 @@ th, td { text-align:left; padding:6px 4px; border-bottom:1px solid var(--line); 
 .note { font-size:.9rem; color:var(--muted); }
 .err { color:#a02020; }
 footer { margin-top:24px; font-size:.85rem; color:var(--muted); }
+tfoot th, tfoot td { font-weight:700; border-bottom:none; }

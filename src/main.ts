@@ -117,7 +117,7 @@ function update() {
         <tbody>${res.lines
           .map((l) => `<tr><td>${l.group.sex === 'F' ? 'Female' : l.group.sex === 'M' ? 'Male' : 'Child'} ${l.group.label}</td><td class="num">${usd(l.base)}</td><td class="num">${usd(l.adjusted)}</td></tr>`)
           .join('')}</tbody>
-        <tfoot><tr><th>Sum of individuals</th><td class="num" colspan="2" data-testid="subtotal">${usd(res.subtotal)}</td></tr></tfoot>
+        <tfoot><tr><th>Total</th><td class="num" data-testid="subtotal">${usd(res.subtotal)}</td><td class="num" data-testid="table-total">${usd(res.total)}</td></tr></tfoot>
       </table>
       <p class="note" data-testid="adjustment">${adjText}, applied to the sum of individual costs.</p>
       ${res.derived ? `<p class="note" data-testid="derived">Estimated: USDA publishes Thrifty costs for ${REGIONS.find((r) => r.id === state.region)!.label} only for a reference family of four. Each person's U.S. cost is scaled by ${res.ratio.toFixed(4)}× (that figure ÷ the U.S. reference family).</p>` : ''}`;
