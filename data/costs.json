@@ -1,22 +1,22 @@
 {
   "meta": {
-    "month": "2026-09",
-    "monthLabel": "September 2026",
-    "issuedLabel": "October 2026",
+    "month": "2026-10",
+    "monthLabel": "October 2026",
+    "issuedLabel": "November 2026",
     "sourceUrl": "https://www.fna.usda.gov/research/cnpp/usda-food-plans/cost-food-monthly-reports",
-    "fetchedAt": "2026-10-20T12:37:35.457Z",
+    "fetchedAt": "2026-11-14T17:58:18.881Z",
     "pdfs": {
       "thrifty": {
-        "url": "https://www.fna.usda.gov/sites/default/files/resource-files/CostofFoodSep2026Thrifty.pdf",
-        "sha256": "0a6b7bd92b70699642f6f4a2f174e984a454764aae1a52f532062dce2ea80c25"
+        "url": "https://www.fna.usda.gov/sites/default/files/resource-files/CostofFoodOct2026Thrifty.pdf",
+        "sha256": "b4c20d33aae988b6aadfff441e1f0f4e26d5ab4f6a850305a334c98affcfd02d"
       },
       "lowmodlib": {
-        "url": "https://www.fna.usda.gov/sites/default/files/resource-files/CostofFoodSep2026LowModLib.pdf",
-        "sha256": "8d51017390bb86be74b9bec99b5c5d1857b70b7c35af2475d3f28875b1785722"
+        "url": "https://www.fna.usda.gov/sites/default/files/resource-files/CostofFoodOct2026LowModLib.pdf",
+        "sha256": "3953ce67c9a1f47adc5d7fe18cf18fff04534cb3f00ba348b0cc08a4b804aff9"
       },
       "akhi": {
-        "url": "https://www.fna.usda.gov/sites/default/files/resource-files/CostofFoodSep2026AKHI.pdf",
-        "sha256": "46116726e09c204a4cb5f557ac38aef56a89f2201e53e936c42504621817aeb1"
+        "url": "https://www.fna.usda.gov/sites/default/files/resource-files/CostofFoodOct2026AKHI.pdf",
+        "sha256": "c12f95c2bb9d0672367a85893fbc77e03f6a2b461a05014fccb3acfdc3b572bd"
       }
     }
   },
@@ -53,8 +53,8 @@
     }
   ],
   "referenceFamily": {
-    "weekly": 236.3,
-    "monthly": 1024
+    "weekly": 236.5,
+    "monthly": 1024.6
   },
   "plans": {
     "thrifty": {
@@ -66,7 +66,7 @@
           "sex": null,
           "ageMin": 1,
           "ageMax": 1,
-          "weekly": 26.3,
+          "weekly": 26.4,
           "monthly": 114.2
         },
         {
@@ -76,7 +76,7 @@
           "ageMin": 2,
           "ageMax": 3,
           "weekly": 39.8,
-          "monthly": 172.5
+          "monthly": 172.6
         },
         {
           "id": "C4-5",
@@ -84,8 +84,8 @@
           "sex": null,
           "ageMin": 4,
           "ageMax": 5,
-          "weekly": 43.4,
-          "monthly": 188.3
+          "weekly": 43.5,
+          "monthly": 188.5
         },
         {
           "id": "C6-8",
@@ -94,7 +94,7 @@
           "ageMin": 6,
           "ageMax": 8,
           "weekly": 48.3,
-          "monthly": 209.1
+          "monthly": 209.3
         },
         {
           "id": "C9-11",
@@ -103,7 +103,7 @@
           "ageMin": 9,
           "ageMax": 11,
           "weekly": 55.8,
-          "monthly": 241.9
+          "monthly": 242
         },
         {
           "id": "F12-13",
@@ -112,7 +112,7 @@
           "ageMin": 12,
           "ageMax": 13,
           "weekly": 51.7,
-          "monthly": 224
+          "monthly": 223.9
         },
         {
           "id": "F14-19",
@@ -120,8 +120,8 @@
           "sex": "F",
           "ageMin": 14,
           "ageMax": 19,
-          "weekly": 60,
-          "monthly": 260
+          "weekly": 60.1,
+          "monthly": 260.5
         },
         {
           "id": "F20-50",
@@ -129,8 +129,8 @@
           "sex": "F",
           "ageMin": 20,
           "ageMax": 50,
-          "weekly": 58.6,
-          "monthly": 253.9
+          "weekly": 58.7,
+          "monthly": 254.2
         },
         {
           "id": "F51-70",
@@ -139,7 +139,7 @@
           "ageMin": 51,
           "ageMax": 70,
           "weekly": 54.6,
-          "monthly": 236.4
+          "monthly": 236.6
         },
         {
           "id": "F71+",
@@ -147,8 +147,8 @@
           "sex": "F",
           "ageMin": 71,
           "ageMax": 120,
-          "weekly": 60.1,
-          "monthly": 260.6
+          "weekly": 60.3,
+          "monthly": 261.4
         },
         {
           "id": "M12-13",
@@ -157,7 +157,7 @@
           "ageMin": 12,
           "ageMax": 13,
           "weekly": 59.7,
-          "monthly": 258.5
+          "monthly": 258.6
         },
         {
           "id": "M14-19",
@@ -166,7 +166,7 @@
           "ageMin": 14,
           "ageMax": 19,
           "weekly": 75.3,
-          "monthly": 326.3
+          "monthly": 326.5
         },
         {
           "id": "M20-50",
@@ -174,8 +174,8 @@
           "sex": "M",
           "ageMin": 20,
           "ageMax": 50,
-          "weekly": 73.6,
-          "monthly": 319
+          "weekly": 73.7,
+          "monthly": 319.1
         },
         {
           "id": "M51-70",
@@ -183,8 +183,8 @@
           "sex": "M",
           "ageMin": 51,
           "ageMax": 70,
-          "weekly": 64.9,
-          "monthly": 281.2
+          "weekly": 65,
+          "monthly": 281.7
         },
         {
           "id": "M71+",
@@ -192,8 +192,8 @@
           "sex": "M",
           "ageMin": 71,
           "ageMax": 120,
-          "weekly": 61.9,
-          "monthly": 268.4
+          "weekly": 62,
+          "monthly": 268.7
         }
       ]
     },
@@ -206,8 +206,8 @@
           "sex": null,
           "ageMin": 1,
           "ageMax": 1,
-          "weekly": 38.1,
-          "monthly": 165
+          "weekly": 38.3,
+          "monthly": 165.8
         },
         {
           "id": "C2-3",
@@ -215,8 +215,8 @@
           "sex": null,
           "ageMin": 2,
           "ageMax": 3,
-          "weekly": 40,
-          "monthly": 173.5
+          "weekly": 40.1,
+          "monthly": 173.8
         },
         {
           "id": "C4-5",
@@ -224,8 +224,8 @@
           "sex": null,
           "ageMin": 4,
           "ageMax": 5,
-          "weekly": 41.3,
-          "monthly": 179
+          "weekly": 41.4,
+          "monthly": 179.5
         },
         {
           "id": "C6-8",
@@ -233,8 +233,8 @@
           "sex": null,
           "ageMin": 6,
           "ageMax": 8,
-          "weekly": 60.4,
-          "monthly": 261.5
+          "weekly": 60.5,
+          "monthly": 262.1
         },
         {
           "id": "C9-11",
@@ -252,7 +252,7 @@
           "ageMin": 12,
           "ageMax": 13,
           "weekly": 62.3,
-          "monthly": 269.8
+          "monthly": 269.9
         },
         {
           "id": "F14-18",
@@ -260,8 +260,8 @@
           "sex": "F",
           "ageMin": 14,
           "ageMax": 18,
-          "weekly": 62.5,
-          "monthly": 270.9
+          "weekly": 62.6,
+          "monthly": 271.4
         },
         {
           "id": "F19-50",
@@ -269,8 +269,8 @@
           "sex": "F",
           "ageMin": 19,
           "ageMax": 50,
-          "weekly": 63.8,
-          "monthly": 276.3
+          "weekly": 63.9,
+          "monthly": 277
         },
         {
           "id": "F51-70",
@@ -278,8 +278,8 @@
           "sex": "F",
           "ageMin": 51,
           "ageMax": 70,
-          "weekly": 62.1,
-          "monthly": 268.9
+          "weekly": 62.2,
+          "monthly": 269.4
         },
         {
           "id": "F71+",
@@ -287,8 +287,8 @@
           "sex": "F",
           "ageMin": 71,
           "ageMax": 120,
-          "weekly": 61.9,
-          "monthly": 268.2
+          "weekly": 62.1,
+          "monthly": 269
         },
         {
           "id": "M12-13",
@@ -296,8 +296,8 @@
           "sex": "M",
           "ageMin": 12,
           "ageMax": 13,
-          "weekly": 73,
-          "monthly": 316.5
+          "weekly": 73.2,
+          "monthly": 317.2
         },
         {
           "id": "M14-18",
@@ -306,7 +306,7 @@
           "ageMin": 14,
           "ageMax": 18,
           "weekly": 74.5,
-          "monthly": 322.9
+          "monthly": 323
         },
         {
           "id": "M19-50",
@@ -314,8 +314,8 @@
           "sex": "M",
           "ageMin": 19,
           "ageMax": 50,
-          "weekly": 73.3,
-          "monthly": 317.7
+          "weekly": 73.5,
+          "monthly": 318.5
         },
         {
           "id": "M51-70",
@@ -323,8 +323,8 @@
           "sex": "M",
           "ageMin": 51,
           "ageMax": 70,
-          "weekly": 69.1,
-          "monthly": 299.4
+          "weekly": 69.2,
+          "monthly": 299.9
         },
         {
           "id": "M71+",
@@ -333,7 +333,7 @@
           "ageMin": 71,
           "ageMax": 120,
           "weekly": 68.4,
-          "monthly": 296.3
+          "monthly": 296.4
         }
       ]
     },
@@ -346,8 +346,8 @@
           "sex": null,
           "ageMin": 1,
           "ageMax": 1,
-          "weekly": 42.9,
-          "monthly": 185.7
+          "weekly": 43.1,
+          "monthly": 186.9
         },
         {
           "id": "C2-3",
@@ -355,8 +355,8 @@
           "sex": null,
           "ageMin": 2,
           "ageMax": 3,
-          "weekly": 47.8,
-          "monthly": 207.2
+          "weekly": 47.9,
+          "monthly": 207.7
         },
         {
           "id": "C4-5",
@@ -364,8 +364,8 @@
           "sex": null,
           "ageMin": 4,
           "ageMax": 5,
-          "weekly": 51.1,
-          "monthly": 221.5
+          "weekly": 51.3,
+          "monthly": 222.4
         },
         {
           "id": "C6-8",
@@ -373,8 +373,8 @@
           "sex": null,
           "ageMin": 6,
           "ageMax": 8,
-          "weekly": 70.3,
-          "monthly": 304.7
+          "weekly": 70.5,
+          "monthly": 305.6
         },
         {
           "id": "C9-11",
@@ -382,8 +382,8 @@
           "sex": null,
           "ageMin": 9,
           "ageMax": 11,
-          "weekly": 80.7,
-          "monthly": 349.7
+          "weekly": 81,
+          "monthly": 351.2
         },
         {
           "id": "F12-13",
@@ -391,8 +391,8 @@
           "sex": "F",
           "ageMin": 12,
           "ageMax": 13,
-          "weekly": 74.3,
-          "monthly": 321.7
+          "weekly": 74.5,
+          "monthly": 322.9
         },
         {
           "id": "F14-18",
@@ -400,8 +400,8 @@
           "sex": "F",
           "ageMin": 14,
           "ageMax": 18,
-          "weekly": 74.6,
-          "monthly": 323.3
+          "weekly": 74.5,
+          "monthly": 322.7
         },
         {
           "id": "F19-50",
@@ -409,8 +409,8 @@
           "sex": "F",
           "ageMin": 19,
           "ageMax": 50,
-          "weekly": 77.6,
-          "monthly": 336.4
+          "weekly": 77.8,
+          "monthly": 337
         },
         {
           "id": "F51-70",
@@ -418,8 +418,8 @@
           "sex": "F",
           "ageMin": 51,
           "ageMax": 70,
-          "weekly": 76.5,
-          "monthly": 331.3
+          "weekly": 76.6,
+          "monthly": 331.9
         },
         {
           "id": "F71+",
@@ -427,8 +427,8 @@
           "sex": "F",
           "ageMin": 71,
           "ageMax": 120,
-          "weekly": 76.1,
-          "monthly": 329.8
+          "weekly": 76.4,
+          "monthly": 331.2
         },
         {
           "id": "M12-13",
@@ -436,8 +436,8 @@
           "sex": "M",
           "ageMin": 12,
           "ageMax": 13,
-          "weekly": 90.5,
-          "monthly": 392.2
+          "weekly": 90.8,
+          "monthly": 393.5
         },
         {
           "id": "M14-18",
@@ -445,8 +445,8 @@
           "sex": "M",
           "ageMin": 14,
           "ageMax": 18,
-          "weekly": 93.1,
-          "monthly": 403.5
+          "weekly": 93.2,
+          "monthly": 403.7
         },
         {
           "id": "M19-50",
@@ -454,8 +454,8 @@
           "sex": "M",
           "ageMin": 19,
           "ageMax": 50,
-          "weekly": 91.9,
-          "monthly": 398.4
+          "weekly": 92.1,
+          "monthly": 398.9
         },
         {
           "id": "M51-70",
@@ -463,8 +463,8 @@
           "sex": "M",
           "ageMin": 51,
           "ageMax": 70,
-          "weekly": 86.5,
-          "monthly": 374.9
+          "weekly": 86.8,
+          "monthly": 376
         },
         {
           "id": "M71+",
@@ -472,8 +472,8 @@
           "sex": "M",
           "ageMin": 71,
           "ageMax": 120,
-          "weekly": 84.1,
-          "monthly": 364.3
+          "weekly": 84.3,
+          "monthly": 365.3
         }
       ]
     },
@@ -486,8 +486,8 @@
           "sex": null,
           "ageMin": 1,
           "ageMax": 1,
-          "weekly": 52.3,
-          "monthly": 226.4
+          "weekly": 52.4,
+          "monthly": 227.1
         },
         {
           "id": "C2-3",
@@ -495,8 +495,8 @@
           "sex": null,
           "ageMin": 2,
           "ageMax": 3,
-          "weekly": 58.2,
-          "monthly": 252.1
+          "weekly": 58.3,
+          "monthly": 252.8
         },
         {
           "id": "C4-5",
@@ -504,8 +504,8 @@
           "sex": null,
           "ageMin": 4,
           "ageMax": 5,
-          "weekly": 61.9,
-          "monthly": 268.3
+          "weekly": 62,
+          "monthly": 268.8
         },
         {
           "id": "C6-8",
@@ -513,8 +513,8 @@
           "sex": null,
           "ageMin": 6,
           "ageMax": 8,
-          "weekly": 82.4,
-          "monthly": 357.2
+          "weekly": 82.6,
+          "monthly": 357.8
         },
         {
           "id": "C9-11",
@@ -522,8 +522,8 @@
           "sex": null,
           "ageMin": 9,
           "ageMax": 11,
-          "weekly": 94.2,
-          "monthly": 408.2
+          "weekly": 94.6,
+          "monthly": 409.8
         },
         {
           "id": "F12-13",
@@ -531,8 +531,8 @@
           "sex": "F",
           "ageMin": 12,
           "ageMax": 13,
-          "weekly": 92.6,
-          "monthly": 401.1
+          "weekly": 92.7,
+          "monthly": 401.7
         },
         {
           "id": "F14-18",
@@ -540,8 +540,8 @@
           "sex": "F",
           "ageMin": 14,
           "ageMax": 18,
-          "weekly": 92.2,
-          "monthly": 399.7
+          "weekly": 92.3,
+          "monthly": 399.8
         },
         {
           "id": "F19-50",
@@ -549,8 +549,8 @@
           "sex": "F",
           "ageMin": 19,
           "ageMax": 50,
-          "weekly": 99.1,
-          "monthly": 429.6
+          "weekly": 99.3,
+          "monthly": 430.2
         },
         {
           "id": "F51-70",
@@ -558,8 +558,8 @@
           "sex": "F",
           "ageMin": 51,
           "ageMax": 70,
-          "weekly": 92.2,
-          "monthly": 399.5
+          "weekly": 92.4,
+          "monthly": 400.4
         },
         {
           "id": "F71+",
@@ -567,8 +567,8 @@
           "sex": "F",
           "ageMin": 71,
           "ageMax": 120,
-          "weekly": 91,
-          "monthly": 394.4
+          "weekly": 91.4,
+          "monthly": 395.9
         },
         {
           "id": "M12-13",
@@ -576,8 +576,8 @@
           "sex": "M",
           "ageMin": 12,
           "ageMax": 13,
-          "weekly": 106.3,
-          "monthly": 460.6
+          "weekly": 106.6,
+          "monthly": 462
         },
         {
           "id": "M14-18",
@@ -585,8 +585,8 @@
           "sex": "M",
           "ageMin": 14,
           "ageMax": 18,
-          "weekly": 109.4,
-          "monthly": 473.9
+          "weekly": 109.6,
+          "monthly": 475
         },
         {
           "id": "M19-50",
@@ -603,8 +603,8 @@
           "sex": "M",
           "ageMin": 51,
           "ageMax": 70,
-          "weekly": 103.6,
-          "monthly": 449.1
+          "weekly": 103.9,
+          "monthly": 450.4
         },
         {
           "id": "M71+",
@@ -612,15 +612,15 @@
           "sex": "M",
           "ageMin": 71,
           "ageMax": 120,
-          "weekly": 103.4,
-          "monthly": 448.1
+          "weekly": 103.6,
+          "monthly": 448.7
         }
       ]
     }
   },
   "regions": {
-    "anchorageMonthly": 1296.9,
-    "hawaiiMonthly": 1573.6,
+    "anchorageMonthly": 1303.9,
+    "hawaiiMonthly": 1582.8,
     "alaskaPercentAboveAnchorage": {
       "urban": 0.79,
       "ruralI": 28.52,
